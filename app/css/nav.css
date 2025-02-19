@@ -1,0 +1,35 @@
+body{
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+    color:#023047;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.menu li a:hover{
+    border-bottom: 1px solid #20EEFF;
+    box-shadow: 0 5px 10px -5px #20EEFF; /* Sombra solo en la parte inferior */
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 0px 30px;
+}

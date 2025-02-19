@@ -1,0 +1,146 @@
+body{
+    font-family: 'Ubuntu', 'Courier New', Courier, monospace;
+    color:#023047;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #20EEFF;
+    box-shadow: 0 0 1rem #20EEFF;
+}
+
+header h1{
+    text-shadow: 0 0 1rem white;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 10px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#login-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0,0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #20EEFF;
+    border-right: 1px solid #20EEFF;
+    box-shadow:  
+        -5px 0 10px #20EEFF, /* Sombra izquierda */
+         5px 0 10px #20EEFF;  /* Sombra derecha */
+}
+
+#login-box h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#login-box a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+#edit-box{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0,0, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #20EEFF;
+    border-right: 1px solid #20EEFF;
+    box-shadow:  
+        -5px 0 10px #20EEFF, /* Sombra izquierda */
+         5px 0 10px #20EEFF;  /* Sombra derecha */
+}
+
+#edit-box a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    background-color: #FFF;
+    border: 2px solid #20EEFF;
+    color: #023047;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"]:focus,  input[type="password"]:focus{
+    border-color: #20EEFF;
+    outline: none;
+}
+
+a.primary {
+    background-color: #20EEFF;
+    color:black;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+  
+a.primary:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid #20EEFF;
+}
+  
+a.secondary {
+    background-color: #20EEFF;
+    color:black;
+    cursor: pointer;
+}
+  
+a.secondary:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid #20EEFF;
+}
+
+footer {
+    background-color: black;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #20EEFF;
+    box-shadow: 0 0 1rem #20EEFF;
+}
