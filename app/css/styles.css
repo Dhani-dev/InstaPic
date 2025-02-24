@@ -29,6 +29,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+#profile-main {
+    justify-content: flex-start; /*Solución para alinear al inicio*/
 }
 
 #login-box {
