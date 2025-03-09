@@ -15,7 +15,7 @@ img{
     width: 150px;
     border-radius: 45px;
     box-shadow: 0 0 1rem #20EEFF;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .tittle{
@@ -47,6 +47,8 @@ img{
     height: 20px;
     background: #20EEFF;
     border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .controls {
